@@ -1,0 +1,12 @@
+1. NAVIGATION
+- create a navigation key in : app > navigator_key
+- crate a common navigation class  
+    : app > navigator
+    : features > feature name > presentation > naigator
+    NOTES: all features that require navigation like Splashscreen, login ,register, home ,etc
+    Eg: splash navigation
+    - create a provider for SplashViewScreen
+    -- NOTE: add navigatorkey in main.dart / or else promts ERROR: No ProviderScope found!
+    -- Add navigatorKey in app.dart and ProviderScope in main.dart to solve the error . also note consumerWidget
+
+

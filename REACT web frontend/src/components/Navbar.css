@@ -1,0 +1,193 @@
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: gold;
+}
+
+.navbar-logo {
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+}
+
+.rounded-button {
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.favorite-btn {
+    border: none;
+}
+
+.favorite-btn .bi-heart-fill {
+    color: red;
+}
+
+.cart-btn {
+    border: none;
+}
+
+.cart-btn .bi-cart-fill {
+    color: black;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+
+.d-flex {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.ms-auto {
+    margin-left: auto; 
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .ms-auto {
+        margin-left: 0; 
+        margin-top: 10px; 
+    }
+}
+
+.navbar-divider {
+    margin-top: 0;
+    border-top: 5px solid #2706e0;
+}
+
+.btn-gold {
+    background-color: gold !important;
+    border-color: gold !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+
+/* dropdown animated css */
+.dropdown {
+    position: relative; /* Set the position of the container to relative */
+}
+
+.open {
+    position: absolute; /* Position the element absolutely within the container */
+    top: calc(-10% + 0px); /* Position just below the button */
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: block;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+}
+
+
+.open:hover {
+    opacity: 0.8;
+}
+
+.open span {
+    display: block;
+    height: 4px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: transparent;
+    position: absolute;
+    transition: all 0.4s ease;
+}
+
+.open span:nth-child(1) {
+    margin-top: 10px;
+}
+
+.open span:nth-child(2) {
+    margin-top: 25px;
+}
+
+.open span:nth-child(3) {
+    margin-top: 40px;
+}
+
+.sub-menu {
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    height: 0;
+    width: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(38, 84, 133, 0.54);
+    border-radius: 50%;
+    z-index: 18;
+    overflow: hidden;
+}
+
+.sub-menu li {
+    display: block;
+    float: right;
+    height: auto;
+    margin-right: -160px;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sub-menu li:first-child {
+    margin-top: 180px;
+}
+
+.sub-menu li a {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    line-height: 40px;
+}
+
+.oppenned .sub-menu {
+    opacity: 1;
+    height: 400px;
+    width: 400px;
+}
+
+.oppenned span:nth-child(1),
+.oppenned span:nth-child(3) {
+    transform: rotate(45deg);
+}
+
+.oppenned span:nth-child(1) {
+    transform: rotate(45deg) translateY(12px) translateX(12px);
+}
+
+.oppenned span:nth-child(2) {
+    height: 400px;
+    width: 400px;
+    right: -160px;
+    top: -160px;
+    border-radius: 50%;
+    background-color: rgba(38, 84, 133, 0.54);
+}
+
+.oppenned span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-10px) translateX(10px);
+}
+
+.oppenned .sub-menu li {
+    margin-right: 168px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

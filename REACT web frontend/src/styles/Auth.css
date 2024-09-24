@@ -1,0 +1,174 @@
+body {
+    background-color: gold;
+    background-image: url('/public/assets/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 20px); 
+    padding-top: 20px; 
+}
+
+.container {
+    width: 100%;
+    max-width: 430px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.auth-form {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.login-title {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.login-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.welcome-text,
+.credentials-text {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.credentials-text {
+    font-size: smaller;
+}
+
+.login-label {
+    color: black;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.input-container {
+    position: relative;
+    margin-top: 10px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.remember-forgot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me-checkbox {
+    margin-right: 0.5em;
+    transform: scale(1);
+}
+
+.remember-me-text {
+    font-weight: bold;
+    font-size: smaller;
+    color: black;
+}
+
+.forgot-password {
+    font-size: smaller;
+    color: red;
+    cursor: pointer;
+}
+
+.login-button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.divider {
+    border-bottom: 1px solid black;
+    margin: 20px 0;
+}
+
+.social-login-text {
+    font-size: smaller;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.social div {
+    width: 48%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.27);
+    color: #eaf0fb;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social div:hover {
+    background-color: rgba(255, 255, 255, 0.47);
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
