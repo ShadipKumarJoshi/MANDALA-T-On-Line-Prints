@@ -71,11 +71,11 @@ Api.put(`/api/order/update/${id}`, data, config);
 ## Environment Variables
 The following environment variables must be set:
 
-MONGO_URI: MongoDB connection string.
-
+PORT = 8000
+MONGODB_CLOUD: MongoDB connection string.
 JWT_SECRET: Secret key for JWT authentication.
-
-PORT: Port on which the server will run.
+EMAIL='your_eail@gmail.com'
+EMAIL_PASSWORD='your email key
 
 ## Environment Variables
 [REACT_APP_Frontend_URL](https://github.com/st6003/frontend-seca-ShadipKumarJoshi.git)
